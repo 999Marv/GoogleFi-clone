@@ -9,6 +9,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    z-index: 1;
+    background-color: white;
     position: sticky;
     top: 0;
     box-shadow: 0 4px 6px -6px #222;
@@ -70,9 +72,13 @@ main {
     font-size: 15px;
 }
 
-.number {
+.flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.number {
     padding-top: 50px;
 }
 
@@ -106,4 +112,65 @@ li:hover {
     cursor: pointer;
     background-color: #e7f0fe;
     color: #1f57d0;
+}
+
+.plan {
+    padding-top: 40px;
+}
+
+.plan a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.final {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 600px;
+    padding-bottom: 200px;
+}
+
+.fin {
+    height: 200px;
+    width: 230px;
+}
+.name {
+    padding-bottom: 10px;
+}
+
+.tag {
+    background-color: #e7f0fe;
+    color: #1f57d0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 10px
+}
+
+.border {
+    border: solid #D3D3D3 1px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.container2 {
+    padding: 15px 15px;
+}
+
+.flex h5 {
+    max-width: 350px;
+    color: grey;
+}
+
+.last {
+    text-align: center;
+    color: #1f57d0;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
 }
